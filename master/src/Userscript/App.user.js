@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Educamos Houses
-// @version      0.1
+// @version      1
 // @description  Permite poner la house en datos usuarios.
 // @author       Juan Ignacio Veron Desimoni
 // @include     *-ar.educamos.com/DatosCentro/Alumnos/EditarAlumno*
@@ -15,25 +15,25 @@ EsperaID("#AlumnoDatosPersonales_NumeroCodigoBarras",function(){
     var sel = $("#AlumnoDatosPersonales_NumeroCodigoBarras").val();
     var txt;
     if (sel == 'Favell'){txt ='<option  value="Fry">Fry</option>'+
-               '<option selected="selected" value="Favell">Favell</option>'+
+               '<option selected="selected" value="Cavell">Cavell</option>'+
                '<option value="Keller">Keller</option>'+
                '<option value="Nightingale">Nightingale</option>';}
     else{    if (sel == "Keller"){txt ='<option  value="Fry">Fry</option>'+
-               '<option value="Favell">Favell</option>'+
+               '<option value="Cavell">Cavell</option>'+
                '<option selected="selected" value="Keller">Keller</option>'+
                '<option value="Nightingale">Nightingale</option>';}
           else{  if (sel == "Nightingale"){txt ='<option  value="Fry">Fry</option>'+
-               '<option value="Favell">Favell</option>'+
+               '<option value="Cavell">Cavell</option>'+
                '<option value="Keller">Keller</option>'+
                '<option selected="selected" value="Nightingale">Nightingale</option>';}
               else {if (sel == "Fry"){
                txt ='<option selected="selected" value="Fry">Fry</option>'+
-               '<option value="Favell">Favell</option>'+
+               '<option value="Cavell">Cavell</option>'+
                '<option value="Keller">Keller</option>'+
                '<option value="Nightingale">Nightingale</option>';}
                else {txt ='<option selected="selected" value=""></option>'+
                '<option value="Fry">Fry</option>'+
-               '<option value="Favell">Favell</option>'+
+               '<option value="Cavell">Cavell</option>'+
                '<option value="Keller">Keller</option>'+
                '<option value="Nightingale">Nightingale</option>';}     
               }

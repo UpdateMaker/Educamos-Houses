@@ -14,7 +14,7 @@ EsperaID("#AlumnoDatosPersonales_NumeroCodigoBarras",function(){
     $('label[for=AlumnoDatosPersonales_NumeroCodigoBarras]').html('House');
     var sel = $("#AlumnoDatosPersonales_NumeroCodigoBarras").val();
     var txt;
-    if (sel == 'Favell'){txt ='<option  value="Fry">Fry</option>'+
+    if (sel == 'Cavell'){txt ='<option  value="Fry">Fry</option>'+
                '<option selected="selected" value="Cavell">Cavell</option>'+
                '<option value="Keller">Keller</option>'+
                '<option value="Nightingale">Nightingale</option>';}
